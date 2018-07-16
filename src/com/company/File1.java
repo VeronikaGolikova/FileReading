@@ -10,7 +10,7 @@ public class File1 {
 
         String line = new String();
         try {
-            Scanner scanner = new Scanner(new FileReader(new File("C:\\Users\\Ni4ka\\Documents\\text.txt")));
+            Scanner scanner = new Scanner(new FileReader(new File("text.txt")));
             line = scanner.nextLine();
 
             System.out.println("Исходный файл: " + line);
